@@ -2,6 +2,8 @@
 
 sebastienのエキスパートエージェント作成向けのサンプルAPIサーバーです。
 使用言語はpythonでflaskアプリをHeroku上でデプロイします。
+今回のAPIサーバーはdefault intent以外のintentでサーバーにpostされる全てに対して
+"こんにちは" と返すものです。
 
 localのOSはmacです。  
 今回はPython3.6を使用します。Pythonのバージョンを変更する場合はruntime.txtを変更してください。
@@ -43,4 +45,16 @@ Herokuの[公式ドキュメント](https://devcenter.heroku.com/articles/gettin
 `$ heroku ps:scale web=1 `  
 `$ heroku open `  
  hello world が表示されればdeploy完了
-hello world が
+
+
+
+
+--------------------------------
+
+以上でherokuへのAPIサーバーのデプロイが終了します。   
+DDSのボット作成時のendpointに {上記のアプりのURL}/test と入力して保存するとdefault以外のintentの場合, "こんにちは" と答えます。
+
+
+
+
+
