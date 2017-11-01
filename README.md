@@ -31,7 +31,7 @@ Herokuの[公式ドキュメント](https://devcenter.heroku.com/articles/gettin
 
 ## herokuにアプリをdeploy　　
 - gitのバージョン情報登録  
-`$ git init`  
+`$ git init`  
 `$ git add . `  
 `$ git commit -m "first commit" `  
 
