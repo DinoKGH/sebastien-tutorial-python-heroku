@@ -55,7 +55,7 @@ Herokuの[公式ドキュメント](https://devcenter.heroku.com/articles/gettin
 
 以上でherokuへのAPIサーバーのデプロイが終了します。     
 DDSのボット作成時のendpointに    
-`{上記のアプりのURL}/test `  
+`{上記のアプりのURL}/test`  
 と入力して保存するとdefault以外のintentの場合, "こんにちは" と答えます。
 
 
