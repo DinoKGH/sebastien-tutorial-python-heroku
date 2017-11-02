@@ -37,7 +37,7 @@ Herokuの[公式ドキュメント](https://devcenter.heroku.com/articles/gettin
 
 - アプリの作成  
 `$ heroku create`    
- または、アプリの名前をしてする場合は  
+ または、アプリの名前を指定する場合は   
 `$ heroku create hogehoge `  
   
 - push  
