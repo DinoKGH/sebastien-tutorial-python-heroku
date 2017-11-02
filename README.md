@@ -30,7 +30,10 @@ Herokuの[公式ドキュメント](https://devcenter.heroku.com/articles/gettin
 `$ cd sebastien-tutorial-python-heroku `  
 
 ## herokuにアプリをdeploy　　
-- gitのバージョン情報登録  
+- herokuにlogin  
+`$ heroku login`   
+  
+- gitのバージョン情報登録   
 `$ git init`  
 `$ git add . `  
 `$ git commit -m "first commit" `  
