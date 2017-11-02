@@ -54,7 +54,7 @@ Herokuの[公式ドキュメント](https://devcenter.heroku.com/articles/gettin
 
 --------------------------------
 
-## DDBでの設定
+## Sebastien DDBでの設定
 
 以上でherokuへのAPIサーバーのデプロイが終了します。     
 DDSのボット作成時のendpointに    
