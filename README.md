@@ -79,7 +79,7 @@ text関数の詳細
     `$ git add .`    
     `$ git commit -am "make it better" `    
     `$ git push heroku master`    
-
-
+    
+    heroku の使用方法については<https://www.heroku.com/>をご参考ください
 
 
