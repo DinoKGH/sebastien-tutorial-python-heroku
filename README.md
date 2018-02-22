@@ -62,6 +62,23 @@ DDSのボット作成時のendpointに
 と入力して保存するとdefault以外のintentの場合, "こんにちは" と答えます。
 
 
+--------------------------------
+
+## 内容の修正
+
+sebastien-tutorial-python-herokuフォルダ内の
+myproject > views > code.py
+内のtext関数を修正することで返答を変えることができます。
+
+text関数の詳細
+第一引数(utterance): ユーザーの発話内容      
+第二引数(intent): intent名
+第三引数(slot) : slotのkey-value辞書型
+
+修正内容のheroku appへの反映方法
+`$ git add . `  
+`$ git commit -am "make it better" `  
+`$ git push heroku master ` 
 
 
 
