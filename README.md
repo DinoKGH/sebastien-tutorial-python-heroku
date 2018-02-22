@@ -76,6 +76,7 @@ text関数の詳細
 第三引数(slot) : slotのkey-value辞書型
 
 - 修正内容のheroku appへの反映方法
+
 `$ git add . `  
 `$ git commit -am "make it better" `  
 `$ git push heroku master ` 
